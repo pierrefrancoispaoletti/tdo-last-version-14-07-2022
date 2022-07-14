@@ -1,0 +1,46 @@
+@import './vars';
+
+.foodItems {  
+  color: $text-color !important;
+}
+
+.menu__categories {
+  background-color: $button-color !important;
+  border-radius: 50px !important;
+}
+
+.title{
+  font-family: 'Aesthete' !important;
+  font-size: 3.5em !important;
+  font-weight: 400 !important;
+
+}
+
+.info {
+  font-family: 'Poppins-ExtraBold' !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase !important;
+}
+
+
+.itemelement {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.itemtitle {
+  font-family: 'Poppins-ExtraBold' !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.itemdescription {
+  font-family: 'Poppins-Light';
+  letter-spacing: 1.3px;
+  line-height: 1.3;
+}

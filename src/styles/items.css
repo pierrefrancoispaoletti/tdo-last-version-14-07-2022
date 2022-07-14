@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Aesthete";
+  src: local("Aesthete"), url("../fonts/Aesthete.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: local("Poppins-ExtraBold"), url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"), url("../fonts/Poppins-Light.ttf");
+}
+.foodItems {
+  color: white !important;
+}
+
+.menu__categories {
+  background-color: #d8cda0 !important;
+  border-radius: 50px !important;
+}
+
+.title {
+  font-family: "Aesthete" !important;
+  font-size: 3.5em !important;
+  font-weight: 400 !important;
+}
+
+.info {
+  font-family: "Poppins-ExtraBold" !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase !important;
+}
+
+.itemelement {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemtitle {
+  font-family: "Poppins-ExtraBold" !important;
+  letter-spacing: 1.6px !important;
+  text-transform: uppercase !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.itemdescription {
+  font-family: "Poppins-Light";
+  letter-spacing: 1.3px;
+  line-height: 1.3;
+}
+
+/*# sourceMappingURL=items.css.map */

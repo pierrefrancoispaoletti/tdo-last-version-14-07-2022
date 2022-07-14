@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Aesthete";
+  src: local("Aesthete"), url("../fonts/Aesthete.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: local("Poppins-ExtraBold"), url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"), url("../fonts/Poppins-Light.ttf");
+}
+.app {
+  background-color: #656439;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Aesthete";
+  src: local("Aesthete"), url("../fonts/Aesthete.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: local("Poppins-ExtraBold"), url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: local("Poppins-Light"), url("../fonts/Poppins-Light.ttf");
+}
+.footer__container__header {
+  color: white !important;
+}
+.footer__container a {
+  color: white !important;
+}
+
+/*# sourceMappingURL=footer.css.map */
