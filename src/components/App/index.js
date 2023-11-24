@@ -20,16 +20,16 @@ const App = () => {
   // the app, in case the prices or the content have changed
   useEffect(() => {
     localStorage.clear();
-    const is14OfFebruary = new Date().toLocaleDateString("fr-FR", {
-      month: "long",
-      day: "2-digit",
-    });
-    if (is14OfFebruary !== "14 février") {
-      setOpenPopup(false);
-    }
+    // const is14OfFebruary = new Date().toLocaleDateString("fr-FR", {
+    //   month: "long",
+    //   day: "2-digit",
+    // });
+    // if (is14OfFebruary !== "14 février") {
+    //   setOpenPopup(false);
+    // }
   }, []);
   const [openMenu, setOpenMenu] = useState(false);
-  const [openPopup, setOpenPopup] = useState(true);
+  // const [openPopup, setOpenPopup] = useState(true);
   return (
     <div className="app">
       <BurgerMenu openMenu={openMenu} setOpenMenu={setOpenMenu}>
@@ -59,7 +59,7 @@ const App = () => {
         <Footer />
       </BurgerMenu>
       <BackHomeButton />
-      <PopupValentinesDay openPopup={openPopup} setOpenPopup={setOpenPopup} />
+      {/* <PopupValentinesDay openPopup={openPopup} setOpenPopup={setOpenPopup} /> */}
     </div>
   );
 };

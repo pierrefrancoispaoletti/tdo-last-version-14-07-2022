@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51286c41.chunk.css",
+    "main.js": "/static/js/main.dd249ef6.chunk.js",
+    "main.js.map": "/static/js/main.dd249ef6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.074ab045.js",
+    "runtime-main.js.map": "/static/js/runtime-main.074ab045.js.map",
+    "static/css/2.b53b5f81.chunk.css": "/static/css/2.b53b5f81.chunk.css",
+    "static/js/2.24f948ad.chunk.js": "/static/js/2.24f948ad.chunk.js",
+    "static/js/2.24f948ad.chunk.js.map": "/static/js/2.24f948ad.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b53b5f81.chunk.css.map": "/static/css/2.b53b5f81.chunk.css.map",
+    "static/css/main.51286c41.chunk.css.map": "/static/css/main.51286c41.chunk.css.map",
+    "static/js/2.24f948ad.chunk.js.LICENSE.txt": "/static/js/2.24f948ad.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/static/media/Poppins-Light.f41b63c0.ttf",
+    "static/media/COEUR_TDO_GIF.8bdc1447.gif": "/static/media/COEUR_TDO_GIF.8bdc1447.gif",
+    "static/media/T13.f57f4a1f.png": "/static/media/T13.f57f4a1f.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.074ab045.js",
+    "static/css/2.b53b5f81.chunk.css",
+    "static/js/2.24f948ad.chunk.js",
+    "static/css/main.51286c41.chunk.css",
+    "static/js/main.dd249ef6.chunk.js"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "short_name": "TDO",
+  "name": "Le Temps des Oliviers",
+  "icons": [
+    {
+      "src": "favicon-96x96.ico",
+      "sizes": "96x96 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone"
+}

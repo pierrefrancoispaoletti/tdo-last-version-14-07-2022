@@ -12,11 +12,20 @@ export const compareObjects = (object1, object2, key) => {
 };
 
 export const filterObjectsByCategory = (allItems, category, func) => {
-  const newItemsArray = allItems.filter((item) => item.categories[0] === category);
-  if (category !== '') {
+  const newItemsArray = allItems.filter(
+    (item) => item.categories[0] === category
+  );
+  if (category !== "") {
     func(newItemsArray);
-  }
-  else {
+  } else {
     func(allItems);
   }
+};
+
+export const sortObjectsByPrice = (objects) => {
+  return objects.sort((a, b) => {
+    let priceA = parseFloat(a.meta.prix.split("/")[0]);
+    let priceB = parseFloat(b.meta.prix.split("/")[0]);
+    return priceA - priceB;
+  });
 };
